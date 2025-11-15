@@ -6,8 +6,27 @@
     <title>Rastreio de Pedras Preciosas</title>
 </head>
 <body>
+    <h1>Resgistro de Pedra</h1>
+
+    <h2>Cadastrar Pedra</h2>
+    <form id="form-pedra">
+        <input type="text" id="tipo" placeholder="Tipo" required>
+        <input type="text" id="cor" placeholder="Cor" required>
+        <input type="text" id="peso" placeholder="Peso (g)" required>
+        <input type="text" id="categoria" placeholder="Categoria" required>
+        <input type="text" id="local" placeholder="Local de Extração" required>
+
+        <h3>Garimpeiro</h3>
+        <input type="text" id="gampeiro-nome" placeholder="Nome" required>
+        <input type="text" id="coop" placeholder="Cooperativa ou Autônomo" required>
+
+        <h3>Método</h3>
+        <input type="text" id="tecnica" placeholder="Técnica de Garimpo" required>
+
+        <button type="submit">Salvar</button>
+    </form>
+    
   <button id="toggle-theme">Alterar Tema</button>
-  <h1>Sistema de Rastreabilidade de Pedras</h1>
   <div id="lista-pedras"></div>
 
   <script src="asstes/js/theme.js"></script>
